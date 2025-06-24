@@ -7,6 +7,9 @@ This project serves both as a *complete game* and as a **showcase of PolarisKit'
 
 ---
 
+## To Add
+- Add a PolarisKit splash Scene (KitScene)
+
 ## 🏓 Current Features
 
 ✅ Classic **Pong gameplay** (Player vs CPU)  

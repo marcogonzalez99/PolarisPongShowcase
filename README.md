@@ -1,116 +1,124 @@
-![Background](images/background_image.png)
+# 🏓 PolarisPong v0.7.1 (Work in Progress)
 
-# 🎮 PolarisPong by Polaris Studios v0.5 (Work in Progress)
+**PolarisPong** is the first game built using **PolarisKit**, our lightweight, modular starter kit for developing 2D games with Pygame.  
+It’s designed to be **fully replayable**, **polished**, and a **complete example** of what PolarisKit can deliver.
 
-**PolarisPong** is the first game built using **PolarisKit**, my lightweight, modular starter kit for developing 2D games with Pygame.  
-It’s designed to be fully replayable, polished, and a complete example of what PolarisKit can deliver.
+This project is **still in development**, and now showcases key PolarisKit features like **Scene Management**, **Asset Management**, **Save Management**, and **Audio Management** as it evolves toward **v1.0**.
 
-This project is **a work in progress** and will showcase PolarisKit's core features, including **Scene Management**, **Asset Management**, **Save Management**, and **Audio Management**, as it evolves toward v1.0.
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/J3J41IBU2Y)
+---
 
-## 💡 Why Pong?
+## 📜 Why Pong?
 
-**Pong is a simple, classic game**, making it the perfect first test case for PolarisKit.
+Pong is **simple** and **classic**, making it the perfect first test case for PolarisKit.  
 
-It requires a complete game loop with clear transitions. It also exercises the scene system, asset loading, input flow, and save/load functionality.
+It requires:
+- A complete game loop with clear transitions
+- Scene stack handling
+- Asset loading
+- Input flow
+- Save/load persistence
 
-**PolarisPong demonstrates that PolarisKit can deliver a small, polished game with persistent save/load and achievements.**
+**PolarisPong proves that PolarisKit can deliver a small, polished game with persistent save/load, multiple game modes, customization, and achievements.**
 
-## 🗒️ Notes
+---
 
-**PolarisPong** is intentionally simple:
+## ✅ Current Features (v0.7.1)
 
-- First goal: ship a complete small game built with PolarisKit v2
-- Second goal: demonstrate clean **Save/Load**, **Stats**, and **Achievements** using PolarisKit patterns  
-- Third goal: establish a clean example of how PolarisKit can power **small retro games** for the **Polaris Company** and the **M64 console** project  
+- **Achievements System**
+  - Fully functional and saved between sessions
+  - Includes win counts, rally challenges, mode-specific wins, and customization milestones
 
-## 🏓 Current Features (v0.5)
+- **Game Modes**
+  - Regular
+  - Speed Ball *(included in v0.7.1)*
+  - Paddle Size Shuffler *(included in v0.7.1)*
+  - Power Ball Shuffler *(included in v0.7.1)*
+  - **Paddle Speed Shuffler** *(upcoming in v0.8)*
 
-✅ Intro Scene  
-✅ Kit Scene *(PolarisKit splash image)*  
-✅ Title Scene with **Mode Select**  
-- Start Match  
-- Achievements  
-- Customize  
-- Settings  
+- **Customization**
+  - **Ball Skins:** Blue, Green, Purple, Red, Shaded Blue, Shaded Green, Shaded Purple, Shaded Red
+  - **Paddle Skins:** Black, White, Blue, Cloud Pattern, Cyan, Galaxy, Green, Red, Purple, Neon Variants
+  - **Backgrounds:** Black, White, Grassy Soccer, Soccer, Basketball
 
-✅ Settings Scene  
-- Delete/Create Save  
-- Toggle FPS Showing  
-- Credits  
+- **Save System**
+  - Stores skins, stats, achievements, and settings
+  - Saves persist between sessions
 
-✅ Credits Scene  
-- Lead Developer  
-- Lead Designer  
-- Lead Sound Design  
+- **Scenes**
+  - Intro Scene
+  - PolarisKit Splash Scene
+  - Title Scene w/ Mode Select, Achievements, Customize, Settings
+  - Settings Scene (Create/Delete Save, Toggle FPS, Credits)
+  - Achievements Scene
+  - Main Gameplay Scene (Player vs CPU)
+  - Pause Menu (Quit, Resume, Back)
 
-✅ Customize Scene with early options:  
-- **Ball Skins:** Orange, Blue, Green, Purple (Normal Skins)  
-- **Paddle Skins:** Orange, Blue, Galaxy Paddles  
-- **Backgrounds:** Classic Black, Classic White, Soccer Field  
+- **Audio**
+  - Ball bounce, paddle hit, score sounds
+  - Main menu music
+  - Music and SFX manager built into PolarisKit
 
-✅ Achievements Scene *(WIP)*  
-✅ Main Gameplay Scene *(Player vs CPU)*  
-✅ Pause Menu  
-- Q to Quit Game  
-- B to Go Back to previous Scene (Push/Pop)  
+---
 
-✅ Simple **Save/Load System** *(Skins, Stats, Achievements in progress)*  
-✅ **Music and SFX** support  
-- Ball bounce, paddle hit, score sounds  
-- Main Menu Music
+## 🏆 Achievements List (Draft)
 
+- **First Win** – Win your first match  
+- **5 Wins** – Win 5 matches total  
+- **10 Wins** – Win 10 matches total  
+- **25 Wins** – Win 25 matches total  
+- **Longest Rally 10** – Reach a rally of 10 hits  
+- **Longest Rally 25** – Reach a rally of 25 hits  
+- **Longest Rally 50** – Reach a rally of 50 hits  
+- **Longest Rally 100** – Reach a rally of 100 hits  
+- **Win 5 Normal Mode** games *(planned)*  
+- **Win 5 Speed Ball Mode** games *(planned)*  
+- **Win 5 Power Ball Mode** games *(planned)*  
+- **Win 5 Paddle Size Randomizer** games *(planned)*  
+- **Win 5 Paddle Speed Shuffler** games *(planned)*
+- **Shutout Win** – Win a match without allowing a single point  
+- **Achievement Hunter** – Unlock all other achievements  
 
-## 🚀 Planned Features (v1.0 Roadmap)
+---
 
-### More Customization Options
-- Ball Skins: Soccer ball, Baseball, Basketball, Classic Pong ball, more
-- Paddle Skins: Neon paddle, Wooden paddle, Hockey stick paddle, Tech paddle
-- Backgrounds: Soccer pitch, Hockey rink, Dirt field, Grass field, Tech grid
+## 🚀 Planned Features for v1.0
 
-### Game Modes
-- Speed Ball
-- Rally Mode
-- Paddle Size Randomizer
+- Finalize all **5 game modes**
+- Expanded **Customization Options**:
+  - Ball skins: Soccer ball, Baseball, Basketball, Classic Pong, more
+  - Paddle skins: Wooden, Hockey stick, Tech paddle
+  - Backgrounds: Hockey rink, Dirt field, Grass field, Tech grid
+- Gameplay Enhancements:
+  - Match End screen (Win/Loss display)
+  - Stats screen (Games Played, Wins, Longest Rally)
+- Additional achievements tied to new content
+- Visual polish and menu improvements
 
-### Gameplay Enhancements
-- Charged Shot mechanic (Player + CPU)  
-- Match End screen (You Win! / CPU Wins!)  
-- Stats screen (Games Played, Games Won, Longest Rally)  
-- Additional Skins and Backgrounds  
+---
 
-### Achievements (Draft List)
-- **First Win** → Win your first match  
-- **5 Wins** → Win 5 matches total  
-- **10 Wins** → Win 10 matches total  
-- **50 Wins** → Win 50 matches total  
-- **Longest Rally 10** → Reach a rally of 10 hits  
-- **Longest Rally 50** → Reach a rally of 50 hits  
-- **Longest Rally 100** → Reach a rally of 100 hits  
-- **Win with Speed Ball Mode**  
-- **Win with Paddle Size Randomizer**  
-- **Win using a Custom Skin** (ball, paddle, or background customized)  
-- **Shutout Win** → Win a match without allowing a single point  
-- **Achievement Hunter** → Unlock all other achievements  
-
-Achievements will be saved between sessions and displayed in the Achievements Scene.
-
-## Built on PolarisKit v2.0
+## 🛠 Built on PolarisKit v2.0
 
 PolarisKit currently provides:
 
-✅ Direct **SceneManager stack system** (Intro, Title, Game, Pause, Achievements, Match End)  
-✅ Global **Pause system** (ESC key from anywhere)  
-✅ Simple **Asset + Sound loader** (images, SFX, fonts)  
-✅ Clean and scalable **folder structure**  
-✅ Scene lifecycle: **on_enter()**, **on_exit()**  
-✅ Built-in **Save/Load system** (Stats and Achievements)
-✅ Built-in **Audio Manager** (SFX and Music)
+- **SceneManager stack system** (Intro, Title, Game, Pause, Achievements, Match End)
+- **Global pause system** (ESC from anywhere)
+- **Asset + Sound loader** for images, SFX, fonts
+- **Scene lifecycle** methods: `on_enter()` / `on_exit()`
+- **Save/Load system** for stats, skins, achievements
+- **Audio Manager** for SFX and Music
+- **Clean, scalable folder structure**
+
+---
 
 ## 🔒 Code Access
 
-> The codebase is currently **private**. 
+> The codebase is currently **private**.
 
-## Built By
+---
+
+## 👤 Built By
 
 Marco @ **SB Studios**  
-[GitHub](https://github.com/marcogonzalez99) · [LinkedIn](https://www.linkedin.com/in/marco-a-gonzalez99)
+[GitHub](https://github.com/marcogonzalez99) · [LinkedIn](https://www.linkedin.com/in/marco-a-gonzalez99) · [Ko-fi](https://ko-fi.com/sbstudios)
+
+---

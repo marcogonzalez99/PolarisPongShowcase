@@ -1,10 +1,20 @@
 # PolarisPong Changelog
 
 ---
+## [v0.8.1] — 2025-08-11
+### Changed
+- Changed names of all gamemodes (Classic, Speed Rush, Power Cycle, Paddle Morph and Paddle Overdrive)
+
+## [v0.8] — 2025-08-10
+### Added
+- Add placeholder badges for all achievements (minus winning without losing a point)
+- Add new gamemode **Paddle Speed Shuffle**
+
 
 ## [v0.7.1] — 2025-08-09
 ### Docs
 - Update README to match the showcase document.
+- Create Changelog to maintain and track updates
 
 ---
 

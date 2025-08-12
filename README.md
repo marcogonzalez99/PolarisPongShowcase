@@ -1,4 +1,4 @@
-# 🏓 PolarisPong v0.7.1 (Work in Progress)
+# 🏓 PolarisPong v0.8 (Work in Progress)
 
 **PolarisPong** is the first game built using **PolarisKit**, our lightweight, modular starter kit for developing 2D games with Pygame.  
 It’s designed to be **fully replayable**, **polished**, and a **complete example** of what PolarisKit can deliver.
@@ -23,18 +23,18 @@ It requires:
 
 ---
 
-## ✅ Current Features (v0.7.1)
+## ✅ Current Features (v0.8.0)
 
 - **Achievements System**
   - Fully functional and saved between sessions
   - Includes win counts, rally challenges, mode-specific wins, and customization milestones
 
 - **Game Modes**
-  - Regular
-  - Speed Ball *(included in v0.7.1)*
-  - Paddle Size Shuffler *(included in v0.7.1)*
-  - Power Ball Shuffler *(included in v0.7.1)*
-  - **Paddle Speed Shuffler** *(upcoming in v0.8)*
+  - Regular *(included in v0.8)*
+  - Speed Ball *(included in v0.8)*
+  - Paddle Size Shuffler *(included in v0.8)*
+  - Power Ball Shuffler *(included in v0.8)*
+  - Paddle Speed Shuffler *(included in v0.8)*
 
 - **Customization**
   - **Ball Skins:** Blue, Green, Purple, Red, Shaded Blue, Shaded Green, Shaded Purple, Shaded Red
@@ -71,12 +71,12 @@ It requires:
 - **Longest Rally 25** – Reach a rally of 25 hits  
 - **Longest Rally 50** – Reach a rally of 50 hits  
 - **Longest Rally 100** – Reach a rally of 100 hits  
-- **Win 5 Normal Mode** games *(planned)*  
-- **Win 5 Speed Ball Mode** games *(planned)*  
-- **Win 5 Power Ball Mode** games *(planned)*  
-- **Win 5 Paddle Size Randomizer** games *(planned)*  
-- **Win 5 Paddle Speed Shuffler** games *(planned)*
-- **Shutout Win** – Win a match without allowing a single point  
+- **Win 5 Normal Mode** games *(Implemented in v0.8)*
+- **Win 5 Speed Ball Mode** games *(Implemented in v0.8)*
+- **Win 5 Power Ball Mode** games *(Implemented in v0.8)*
+- **Win 5 Paddle Size Randomizer** games *(Implemented in v0.8)*
+- **Win 5 Paddle Speed Shuffler** games *(Implemented in v0.8)*
+- **Shutout Win** – Win a match without allowing a single point *(Planned for v0.8.1)*
 - **Achievement Hunter** – Unlock all other achievements  
 
 ---
